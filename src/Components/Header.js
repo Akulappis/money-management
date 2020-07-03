@@ -7,7 +7,6 @@ function Header() {
             <span className="font-bold">
                 Kulujenseuranta
             </span>
-
             <Navigation />
         </header>
     )

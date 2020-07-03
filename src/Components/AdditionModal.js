@@ -25,7 +25,7 @@ function Modal(props) { //Allows user to log data entries
                         {/*body*/}
                         <div className="border-b p-3 flex justify-between flex-col items-center">
                             <p>Määrä</p>
-                            <input type="number" onChange={event => setAmount(event.target.value)} className="bg-gray-200 p-3 mb-8"></input>
+                            <input type="text" onChange={event => setAmount(event.target.value)} className="bg-gray-200 p-3 mb-8"></input>
                             <p>Syy</p>
                             <input type="text" onChange={event => setReason(event.target.value)} className="bg-gray-200 p-6"></input>
                         </div>
