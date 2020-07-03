@@ -5,7 +5,7 @@ import Button from './Button'
 
 
 
-function Modal(props) {
+function Modal(props) { //Allows user to log data entries
     const [amount, setAmount] = useState('')
     const [reason, setReason] = useState('')
     let transaction = {

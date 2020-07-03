@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { dataArray } from '../global'
 
-function DataEntry(props) {
+function DataEntry(props) { //Used to display data on history view
     const [showData, setShowData] = useState(true)
 
     return (

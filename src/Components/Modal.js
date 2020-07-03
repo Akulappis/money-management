@@ -4,7 +4,7 @@ import Button from './Button'
 import { dataArray } from '../global'
 
 
-function Modal() {
+function Modal() { 
     const [showAddModal, setAddShowModal] = React.useState(false);
     const [showDeductModal, setDeductShowModal] = React.useState(false);
 
