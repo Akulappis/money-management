@@ -1,3 +1,5 @@
+Application has two views, Home and History. User can use Home view to log events. History view is used for displaying all event in list form and user can either edit or delete them. Application uses tailwindcss and styled-components for styling. react-router-dom is used for transitioning between views. Didn't use redux or prop-types because of unfamiliarity.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
